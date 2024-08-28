@@ -1,0 +1,54 @@
+/* Estilos generales */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+  background-color:#fef9e7 ;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  width: 100%;
+  max-width: 1000px; /* Ajusta el ancho máximo según tus necesidades */
+  margin-bottom: 2rem;
+  border-bottom: 4px solid #178c17; /* Línea debajo del header */
+}
+
+/* Logo */
+.logo {
+  height: 6em;
+  transition: transform 0.3s ease-in-out; /* Transición suave */
+  margin-right: 20px; /* Espacio entre el logo y la fecha/hora */
+}
+
+.logo:hover {
+  transform: scale(1.2); /* Aumenta el tamaño del logo al pasar el mouse */
+}
+
+
+/* DateTime */
+.dateTime {
+  font-size: 1.2rem;
+  color: #130202; /* Ajusta el color según tu diseño */
+  margin-left: auto; 
+}
+
+/* Otras secciones */
+.banner, form, footer {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+/* Estilo para el texto al lado del logo */
+.logo-text {
+  font-size: 2.5rem; /* Tamaño del texto */
+  color: #130202; /* Color del texto */
+  margin-left: 1rem; /* Espacio entre el logo y el texto */
+}
